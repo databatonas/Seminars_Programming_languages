@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Sem001_Checking_the_square/1.0.0": {
+        "runtime": {
+          "Sem001_Checking_the_square.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sem001_Checking_the_square/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
