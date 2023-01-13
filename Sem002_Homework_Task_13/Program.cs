@@ -4,15 +4,16 @@
 
 Console.WriteLine("Введите число . При введении дробного числа используйте запятую");
 
-double a = Convert.ToDouble(Console.ReadLine());
-// Первый блок
-if (a < 0)
+ double a = Convert.ToDouble(Console.ReadLine());
 
-{
-    a = a * -1;
-}
+//  //Первый блок
+ if (a < 0)
 
-// // Второй блок
+ {
+     a = a * -1;
+ }
+
+// // // Второй блок
 if (a < 0.01 && a > 0)
 {
     Console.WriteLine("Третья цифра" + " " + 0);
@@ -48,7 +49,6 @@ if (a >= 10 && a < 100)
     Console.WriteLine("Третья цифра" + " " + c);
 }
 
-
 // Пятый блок
 while (a >= 1000)
 {
@@ -66,10 +66,9 @@ while (a >= 1000)
                                                                                                     
     }
 
-
 //Шестой блок
 if (a == 0)
 {
     Console.WriteLine("Данное число равно нулю и  не может содержать третью цифру.");
-}
+ }
 
